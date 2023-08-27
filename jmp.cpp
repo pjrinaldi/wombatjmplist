@@ -1,4 +1,4 @@
-#include "msg.h"
+#include "jmp.h"
 
 OutlookMessage::OutlookMessage(std::string* msgfile)
 {

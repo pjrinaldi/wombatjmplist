@@ -1,5 +1,5 @@
-#ifndef MSG_H
-#define MSG_H
+#ifndef JMP_H
+#define JMP_H
 
 // Copyright 2023-2023 Pasquale J. Rinaldi, Jr.
 // Distributed under the terms of the GNU General Public License version 2
@@ -64,4 +64,4 @@ class OutlookMessage
         void GetAttachmentContent(std::vector<uint8_t>* content, uint32_t dataid);
 };
 
-#endif // MSG_H
+#endif // JMP_H

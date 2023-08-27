@@ -1,5 +1,5 @@
-#ifndef WOMBATMAIL_H
-#define WOMBATMAIL_H
+#ifndef WOMBATJMP_H
+#define WOMBATJMP_H
 
 // Copyright 2013-2023 Pasquale J. Rinaldi, Jr.
 // Distributed under the terms of the GNU General Public License version 2
@@ -20,13 +20,11 @@
 #include "fox-1.7/fx.h"
 #include "icons.h"
 
-#include "libpff.h"
-#include "vmime/vmime.hpp"
-
 #include "managetags.h"
 #include "aboutbox.h"
 #include "viewer.h"
-#include "msg.h"
+#include "jmp.h"
+#include "lnk.h"
 
 #define TICKS_PER_SECOND 10000000
 #define EPOCH_DIFFERENCE 11644473600LL
@@ -153,4 +151,4 @@ FXDEFMAP(WombatMail) WombatMailMap[]={
     FXMAPFUNC(SEL_SELECTED, WombatMail::ID_LISTSELECT, WombatMail::AttachmentSelected),
 };
 
-#endif // WOMBATMAIL_H
+#endif // WOMBATJMP_H
